@@ -64,9 +64,15 @@ body{
 
 .number:hover{
     cursor: pointer;
+    background: hsl(217, 12%, 63%);
+    color: hsl(0, 0%, 100%);
+}
+
+.checked, .checked:hover{
     background: hsl(25, 97%, 53%);
     color: hsl(0, 0%, 100%);
 }
+
 
 .submit{
     letter-spacing: 2px;
