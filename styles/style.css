@@ -34,7 +34,7 @@ body{
     background: hsl(213, 19%, 18%);
 }
 
-.question{
+.title{
     color: hsl(0, 0%, 100%);
 }
 
@@ -75,15 +75,18 @@ body{
 
 
 .submit{
-    letter-spacing: 2px;
+    letter-spacing: 5px;
     display: flex;
     justify-content: center;
     align-items: center;
     background: hsl(25, 97%, 53%);
     color: hsl(0, 0%, 100%);
+    border: none;
     height: 45px;
     width: 100%;
     border-radius: 25px;
+    font-family: 'Overpass', sans-serif;
+    font-weight: 700;
 }
 
 .submit:hover{
@@ -98,4 +101,22 @@ body{
 
 .attribution{
     display: none;
+}
+
+.thankState{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.ratingText{
+    flex-direction: row;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 5px 15px 5px 15px;
+    border-radius: 20px;
+    background: hsl(213, 19%, 18%);
+    color: hsl(25, 97%, 53%);
 }
