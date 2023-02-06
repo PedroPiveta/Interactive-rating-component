@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+body{
+    background: hsl(228, 11%, 9%);
+    font-family: 'Overpass', sans-serif;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background: hsl(215, 22%, 15%);
+    padding: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 400px;
+    width: 375px;
+    border-radius: 20px;
+}
+
+.star{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15px;
+    height: 15px;
+    padding: 15px;
+    border-radius: 25px;
+    background: hsl(213, 19%, 18%);
+}
+
+.question{
+    color: hsl(0, 0%, 100%);
+}
+
+.text{
+    color: hsl(217, 12%, 63%);
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.numbers {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.number{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15px;
+    height: 15px;
+    padding: 15px;
+    border-radius: 25px;
+    background: hsl(213, 19%, 18%);
+    color: hsl(217, 12%, 63%);
+}
+
+.submit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: hsl(25, 97%, 53%);
+    height: 5vh;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.postRate{
+    display: none;
+}
+
+.attribution{
+    display: none;
+}
