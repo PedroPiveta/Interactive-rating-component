@@ -1,5 +1,11 @@
 @media screen and (max-width: 380px) {
     .container{
-        width: 300px;
+        width: 260px;
+    }
+
+    .number{
+        height: 10px;
+        width: 10px;
+        border-radius: 20px;
     }
 }   
